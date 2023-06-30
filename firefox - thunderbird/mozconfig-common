@@ -1,0 +1,7 @@
+
+# add common options here, such as making an optimized release build
+
+ac_add_options --target=x86_64-pc-mingw32
+ac_add_options --host=x86_64-pc-mingw32
+
+ac_add_options --disable-optimize --disable-tests --disable-gtest-in-build

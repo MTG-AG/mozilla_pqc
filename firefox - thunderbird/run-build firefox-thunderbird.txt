@@ -1,0 +1,8 @@
+
+cd /c/mozilla-source/firefox-64.0/ && export MOZCONFIG=mozconfig-firefox && mach build
+cd /c/mozilla-source/firefox-64.0/ && export MOZCONFIG=mozconfig-firefox && mach run
+cd /c/mozilla-source/firefox-64.0/ && export MOZCONFIG=mozconfig-firefox && mach package
+
+cd /c/mozilla-source/firefox-64.0/ && export MOZCONFIG=mozconfig-thunderbird && mach build
+cd /c/mozilla-source/firefox-64.0/ && export MOZCONFIG=mozconfig-thunderbird && mach run
+cd /c/mozilla-source/firefox-64.0/ && export MOZCONFIG=mozconfig-thunderbird && mach package

@@ -1,0 +1,14 @@
+//
+// Created by sdeligeorgopoulos on 05.11.2018.
+//
+
+#ifndef MOZILLA_PROJECTS_MTG_SSLENUM_H
+#define MOZILLA_PROJECTS_MTG_SSLENUM_H
+
+#include "mtg_sslproto.h"
+
+#define MTG_GET_CIPHER_SUITES()\
+    TLS_CME_SPX_WITH_AES_256_GCM_SHA256,\
+    TLS_CMEE_SPX_WITH_AES_256_GCM_SHA256
+
+#endif //MOZILLA_PROJECTS_MTG_SSLENUM_H

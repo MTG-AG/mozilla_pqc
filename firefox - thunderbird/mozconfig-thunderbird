@@ -1,0 +1,6 @@
+# include the common mozconfig
+. ./mozconfig-common
+
+# Build Thunderbird
+mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/obj-thunderbird
+ac_add_options --enable-application=comm/mail
